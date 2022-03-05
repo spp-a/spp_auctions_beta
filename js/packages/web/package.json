@@ -59,8 +59,8 @@
     "start:prod": "next start",
     "test": "jest --passWithNoTests",
     "deploy:ar": "yarn export && arweave deploy-dir  ../../build/web --key-file ",
-    "deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://gitlab.com/tmanning7/spp_auctions_beta.git -t true",
-    "deploy": "ASSET_PREFIX=/spp_auctions_beta/ yarn build && yarn deploy:gh",
+    "deploy:gh": "yarn export && gh-pages -d ../../build/web --repo https://github.com/spp-a/spp_auctions_beta.git -t true",
+    "deploy": "ASSET_PREFIX=/spp-a/spp_auctions_beta/ yarn build && yarn deploy:gh",
     "format:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|md)\""
   },
   "browserslist": {
